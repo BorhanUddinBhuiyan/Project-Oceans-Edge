@@ -1,0 +1,303 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family:sans-serif;
+}
+ 
+ /*header start*/
+header{
+	background-color: #121B2A;
+	padding:10px 0px;
+	box-shadow:0 5px 5px 10px black;
+}
+.wrapper{
+	
+	width:80%;
+	margin:0 auto;
+	overflow:hidden;
+}
+.logo{
+	width:17%;
+	float: left;
+}
+.logo img{
+	width:100%;
+}
+.menu{
+	width:80%;
+	float:right;
+	padding-top:50px;
+}
+.menu ul{
+	list-style:none;
+	float:right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	font-family:sans-serif;
+	font-weight: 400;
+	font-size:13px;
+	color:white;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding: 0px 25px;
+	display: inline-block;
+	transition:.3s;
+}
+.menu ul li a:hover{
+	color:#0078BD;
+
+}
+.menu ul li:last-child a{
+	padding-right:0px;
+}
+ /*header end*/
+
+ /*banner start*/
+ .banner{
+ 	background:url("../images/banner.jpg") no-repeat center;
+ 	background-size: cover;	
+ }
+ .banner_content{
+ 	width:50%;
+ 	margin-top:210px;
+ 	margin-bottom:100px;
+ }
+ .banner_content h1{
+ 	font-weight:100;
+ 	font-size:37px;
+ 	color:white;
+ 	padding:5px 0px;
+ }
+ .banner_content h2{
+ 	font-weight:700;
+ 	font-size:42px;
+ 	color:#0078BD;
+ 	
+ }
+ .banner_content p{
+ 	color:#B2B6B9;
+ 	line-height:28px;
+ }
+ .banner_content  button{
+ 	width:235px;
+	height:40px;
+	font-weight: 600;
+	font-size:20px;
+	color:#565656;
+	text-transform:uppercase;
+	border:0px;
+	border-radius:3px;
+	margin-top:27px;
+	transition: .3s;
+}
+.banner_content  button:hover{
+	color:#0078BD;
+	cursor:pointer;
+}
+.banner_content  button:focus{
+	outline: 0;
+}
+/*banner end*/
+
+/*service start*/
+.service{
+	background-color:#121B2C;
+	padding: 3% 0 1%;
+}
+	/*single card start*/
+.single{
+	float: left;
+	width:30%;
+	border-right:1px solid #0F1523;
+	padding: 2% 1.6%;
+}
+.top{
+	width:100%;
+	overflow: hidden;
+}
+.top_img{
+
+	width:23%;
+	float:left;
+}
+.top_img img{
+	width:100%;
+}
+.top_text{
+	float: left;
+	width:70%;
+	padding-top: 6%;
+}
+.top_text h2{
+	font-weight: 400;
+    color:white;
+}
+.top_text h3{
+	font-size: 26px;
+    font-weight: 700;
+    color: #0078bd;
+}
+.bottom{
+	width:100%;
+}
+.bottom p{
+	width:100%;
+	font-size: 95%;
+	color: #B2B6B9;
+    padding: 2% 0;
+    line-height: 160%;
+}
+.top_text h3 span{
+	font-weight:400;
+	color:white;
+}
+	/*single card end*/
+.single:last-child{
+	border-right:0;
+}
+.single:last-child h3{
+	padding-top:12%;
+}
+/*service end*/
+
+/*contact section start */
+.contact{
+	background-color:#040811;
+	padding:3% 0 1%;
+}
+.wrapper2{
+	width:72%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.card{
+	width:30%;
+	padding-right:5%;
+	float: left;
+	overflow:hidden;
+}
+.card h2{
+	padding:7% 0;
+	font-size:20px;
+	font-weight:400;
+	color:white;
+}
+.card h2 span{
+	font-size:20px;
+	color: #0078bd;
+}
+.card p{
+	font-style:normal;
+	font-weight:100;
+	font-size:12px;
+	line-height:130%;
+	color:#B2B6B9; 
+}
+.card table{
+	padding:8% 0 13%;
+	font-weight:100;
+	font-size:13px;
+	color:#B2B6B9; 
+}
+	/*single card 1 end*/
+	/*single card 2 start*/
+.shape{
+	width: 100%;
+	height:160px;
+	border-radius:5px;
+	background-color:#0C1019;
+    clip-path:polygon(0% 0%,0% 83%,2% 85%,65% 85%,65% 100%,85% 85%,98% 85%, 100% 83%, 100% 0%);
+}
+.card_top{
+	margin:0 5%;
+}
+.card_bottom{
+	width: 100%;
+	padding-left: 5%;
+	color:#B2B6B9;
+}
+.card_bottom a{
+	font-size:12px;
+	color:#B2B6B9;
+	text-decoration:none;
+}
+.card_bottom a:hover{
+	color:#0078BD;
+}
+	/*single card 2 end*/
+	/*single card 3 start*/
+.left_side{
+	width:38%;
+	float:left;
+}
+.left_side img{
+	width:100%;
+}
+.right_side{
+	width:55%;
+	float:right;
+}
+.right_side img{
+	width:100%;
+}
+.card:last-child{
+	padding-right:0;
+}
+	/*single card 3 end*/
+/*contact section end */
+
+/*footer section start*/
+footer{
+	background-color: #121B2C;
+}
+.left{
+	padding:2% 0 5%;
+	width:65%;
+	float:left;
+}
+.left ul{
+	padding: 2.5% 0;
+	width: 100%;
+	float: left;
+	color:#B2B6B9;
+	list-style:none;
+	display:block;
+	overflow:hidden;
+}
+.left ul li{
+	font-weight:100;
+	float:left;
+	padding-right:3.4%;
+	font-size:74%;
+}
+.left ul li a{
+	color:#B2B6B9;
+	text-decoration:none;
+	display:inline-block;
+	transition:.3s;
+}
+.left p{
+	font-size: 78%;
+	color: #B2B6B9;   
+}
+.left p a{
+	text-decoration:none;
+	color:#0078BD;
+	transition:.3s;
+}
+
+.right{
+	padding:2% 0 5%;
+	width:35%;
+	float:right;
+}
+.right img{
+	width:100%;
+}
+.left ul li a:hover{
+	color:#0078BD;
+}
+/*footer section start*/
